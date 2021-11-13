@@ -26,6 +26,7 @@ Here you can see there appears to be a disparity between the male and female nom
 The final method for testing this is with a logistic regression. While we only have a binary indictor of success (confirmed or not confirmed), a logistic regression allows for us to actually draw a curve between these two binaries and attach statistical significance.
 
 ![Logistic Regression](./Figures/Logistic_regression.jpeg)
+
 In this regression, you can see through time the relative probability of confirmation based on the gender of each nominee. Through time, there's a very clear decreasing trend which increases in 2015. Notably, the female judicial nominees have a lower probability of success in starting, on average, around 2014.  While the uncertainty envelopes overlap, these results do appear to indicate some amount of bias, just not a statistically significant bias toward male appointments.
 
 See more details and figures on my [blog](https://matthewmorriss.weebly.com/codeblog/obama-judicial-appointments)
